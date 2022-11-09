@@ -40,40 +40,22 @@ $(document).ready(function () {
 
 
   $('.js--wp-1').waypoint(function (direction) {
-    if (direction == "down") {
     $('.js--wp-1').addClass('animate__animated animate__bounceInLeft');
-    }
-    else {
-     $('.js--wp-1').removeClass('animate__animated animate__bounceInLeft');
-    }
-  }, { offset: "60%" });
+    
+   }, { offset: "60%" });
 
   $('.js--wp-2').waypoint(function (direction) {
-    if (direction == "down") {
     $('.js--wp-2').addClass('animate__animated animate__bounceInRight');
-    }
-    else {
-     $('.js--wp-2').removeClass('animate__animated animate__bounceInRight');
-    }
-  }, { offset: "60%" });
+   
+   }, { offset: "60%" });
 
   $('.js--wp-3').waypoint(function (direction) {
-    if (direction == "down") {
     $('.js--wp-3').addClass('animate__animated animate__fadeInDown');
-    }
-    else {
-     $('.js--wp-3').removeClass('animate__animated animate__fadeInDown');
-    }
-  }, { offset: "40%" });
+   }, { offset: "40%" });
 
   $('.js--wp-4').waypoint(function (direction) {
-    if (direction == "down") {
     $('.js--wp-4').addClass('animate__animated animate__fadeInUp');
-    }
-    else {
-     $('.js--wp-4').removeClass('animate__animated animate__fadeInUp');
-    }
-  }, { offset: "40%" });
+   }, { offset: "40%" });
 
   $('.js--wp-5').waypoint(function (direction) {
     if (direction == "down") {
@@ -86,12 +68,7 @@ $(document).ready(function () {
 
 
   $('.js--wp-6').waypoint(function (direction) {
-    if (direction == "down") {
     $('.js--wp-6').addClass('animate__animated animate__fadeInUp');
-    }
-    else {
-     $('.js--wp-6').removeClass('animate__animated animate__fadeInUp');
-    }
   }, { offset: "50%" });
   /*--------- responsive navigation --------*/
 
