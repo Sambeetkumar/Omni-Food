@@ -51,11 +51,11 @@ $(document).ready(function () {
 
   $('.js--wp-3').waypoint(function (direction) {
     $('.js--wp-3').addClass('animate__animated animate__fadeInDown');
-   }, { offset: "40%" });
+   }, { offset: "60%" });
 
   $('.js--wp-4').waypoint(function (direction) {
     $('.js--wp-4').addClass('animate__animated animate__fadeInUp');
-   }, { offset: "40%" });
+   }, { offset: "60%" });
 
   $('.js--wp-5').waypoint(function (direction) {
     if (direction == "down") {
